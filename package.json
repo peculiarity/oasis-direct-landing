@@ -1,0 +1,12 @@
+{
+  "name": "oasis-direct-landing",
+  "version": "0.0.1",
+  "description": "Static page which provides oasis-direct functionality and additional information",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watch-http-server .",
+    "test": ""
+  },
+  "author": "Georgi Georgiev",
+  "license": "ISC"
+}

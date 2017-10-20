@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oasis Direct</title>
+  <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="landing.css">
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="lib/web3.min.js">
+
+  </script>
+
+  <script src="actions.js"></script>
+</head>
+<body>
+<main>
+  <section>
+    <header>
+      <div>
+        <img width="216px" height="48px" alt="oasis direct logo" src="public/oasis-logo.svg">
+      </div>
+      <div onfocusout="contractDropdownList()" class="Dropdown" tabindex="-1" title="Select an account">
+        <div class="DropdownToggle" onclick="toggle()">
+          <span data-selected class="DropdownSelected"> </span>
+          <span class="DropdownArrow"><i class="fa fa-caret-down" aria-hidden="true"></i>
+          </span>
+        </div>
+        <div class="DropdownList">
+          <div class="DropdownListWrapper">
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+  <section class="Content">
+    <div>
+      <div style="max-width: 424px;">
+        <h1>THE FIRST DECENTRALIZED INSTANT EXCHANGE</h1>
+      </div>
+      <div>
+        <h2>No registration. No Depositing.</h2>
+      </div>
+    </div>
+    <div class="Widget">
+
+    </div>
+  </section>
+  <section>
+    <footer></footer>
+  </section>
+</main>
+</body>
+</html>
